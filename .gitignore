@@ -1,0 +1,120 @@
+# LD2412 專案 Git 忽略文件
+
+# Python 相關
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# 虛擬環境
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+ld2412_env/
+
+# IDE 和編輯器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 日誌文件
+*.log
+logs/
+
+# 數據文件
+*.csv
+*.txt.bak
+*.data
+data/
+test_data/
+
+# 配置文件（可能包含敏感信息）
+config.ini
+settings.json
+.env
+
+# 圖表輸出
+charts/
+*.png
+*.pdf
+*.svg
+
+# 備份文件
+*.backup
+*.bak
+*.old
+*_backup*
+
+# 臨時文件
+*.tmp
+temp/
+tmp/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# 測試相關
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# 專案特定忽略
+# 串列埠設備文件 (通常是系統特定的)
+/dev/
+*.device
+
+# 用戶自定義配置
+user_settings.py
+local_config.py
