@@ -62,11 +62,18 @@ config.ini
 settings.json
 .env
 
-# 圖表輸出
+# 圖表輸出（但保留文檔圖片）
 charts/
 *.png
 *.pdf
 *.svg
+# 允許文檔中的圖片
+!docs/images/*.png
+!docs/images/*.jpg
+!docs/images/*.jpeg
+!docs/images/*.gif
+!docs/images/*.svg
+!docs/images/*.webp
 
 # 備份文件
 *.backup
